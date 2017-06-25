@@ -1,0 +1,16 @@
+{
+    "css/bdtheme.min.css": [
+        "public/css/bdtheme.css",
+        "public/css/skin-blue.css",
+        "public/css/custom.css",
+        "public/css/temp.css"
+    ],
+    "js/bdtheme.min.js": [
+        "public/js/bdtheme.js",
+        "public/js/custom.js"
+    ],
+    "js/bdtheme-template.min.js": [
+        "public/js/template/main-sidebar.html"
+    ]
+    
+}

@@ -1,0 +1,34 @@
+#page-desktop{ position: static}
+#body_div{ background: #FFFFFF}
+.main-section{ background: #222d32}
+.page-head{ position: static}
+.page-content{ margin-top:0}
+header .container{ width:100%; padding:0px 15px 0 0; min-height: 50px;}
+.navbar-brand{ padding: 0 15px 0 15px; line-height: 50px; height: 50px;}
+#navbar-breadcrumbs > li > a{ padding: 11px 15px 15px 0px}
+.navbar-form{ margin-top:10px;}
+.navbar .dropdown-toggle{padding:13px 15px}
+header .dropdown-help{display:none}
+.main-header .sidebar-toggle{text-decoration: none;}
+.page-container{margin-top:0;}
+/*
+.navbar-brand{height: 50px; line-height: 30px}
+.main-header .logo { height: 40px}
+.main-header .sidebar-toggle{ line-height: 40px;}
+.main-header .navbar{min-height: 40px;}
+*/
+.main-header .logo .logo-lg{
+    background: #367fa9 url(/assets/bdtheme/images/logo_bdoop.png) center no-repeat; 
+    background-size: auto 48px;
+    text-indent:-99em;
+}
+.main-header .logo .logo-mini{
+    background: #367fa9 url(/assets/bdtheme/images/bp-ico-32.png) center no-repeat; 
+    background-size: auto 38px;
+    text-indent:-99em;
+}
+.layout-side-section{ font-size: 13px;}
+.case-label{ color:#000; text-shadow:none; font-size: 95%; font-weight:normal}
+h6.uppercase, .h6.uppercase{ color: #666666;}
+.control-label, .grid-heading-row{ color: #666666;}
+
