@@ -477,3 +477,17 @@
  margin-top:-7px
 }
 
+.overlay {
+    /* full screen */
+    width: 100vw;
+    height: 100vh;
+    /* transparent black */
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    /* middle layer, i.e. appears below the sidebar */
+    z-index: 9998;
+}
+

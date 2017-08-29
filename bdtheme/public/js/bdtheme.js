@@ -334,11 +334,28 @@ function _init() {
           }
         }
       });
-
+ /*
       $(".content-wrapper").click(function () {
         //Enable hide menu when clicking on the content-wrapper on small screens
         if ($(window).width() <= (screenSizes.sm - 1) && $("body").hasClass("sidebar-open")) {
           $("body").removeClass('sidebar-open');
+        }
+      });
+ */     
+
+      $("#body_div").click(function () {
+        //hide menu when clicking on the content-wrapper on small screens
+        //Enable sidebar push menu
+        if ($(window).width() > (screenSizes.sm - 1)) {
+          if (!$("body").hasClass('sidebar-collapse')) {
+            $("body").addClass('sidebar-collapse').trigger('collapsed.pushMenu');
+          }
+        }
+        //Handle sidebar push menu for small screens
+        else {
+          if ($("body").hasClass('sidebar-open')) {
+            $("body").removeClass('sidebar-open').removeClass('sidebar-collapse').trigger('collapsed.pushMenu');
+          }
         }
       });
 
