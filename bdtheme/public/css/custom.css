@@ -17,6 +17,7 @@ header .dropdown-help{display:none}
 .main-header .sidebar-toggle{ line-height: 40px;}
 .main-header .navbar{min-height: 40px;}
 */
+#page-desktop{ background-color:#FFFFFF }
 .main-header .logo .logo-lg{
     background: #367fa9 url(/assets/bdtheme/images/logo_bdoop.png) center no-repeat; 
     background-size: auto 48px;
