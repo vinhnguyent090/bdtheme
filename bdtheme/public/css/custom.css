@@ -33,3 +33,10 @@ header .dropdown-help{display:none}
 h6.uppercase, .h6.uppercase{ color: #666666;}
 .control-label, .grid-heading-row{ color: #666666;}
 
+@media (max-width: 767px) {
+    .skin-blue .main-header .navbar .dropdown-menu li a {
+      color: #333;
+    }
+  }
+}  
+
