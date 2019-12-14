@@ -17,6 +17,7 @@ header .dropdown-help{display:none}
 .main-header .sidebar-toggle{ line-height: 40px;}
 .main-header .navbar{min-height: 40px;}
 */
+.navbar-fixed-top, .navbar-fixed-bottom{position:relative}
 #page-desktop{ background-color:#FFFFFF !important}
 .main-header .logo .logo-lg{
     background: #367fa9 url(/assets/bdtheme/images/logo_bdoop.png) center no-repeat; 
@@ -37,4 +38,15 @@ h6.uppercase, .h6.uppercase{ color: #666666;}
     .skin-blue .main-header .navbar .dropdown-menu li a {
       color: #333;
     }
+  .navbar-desk {
+    width: 60% !important;
   }
+  .main-header .logo{
+    display: none;
+  }
+  .main-header .sidebar-toggle {
+    padding: 0 15px;
+    margin: 0 0px 0 10px;
+  }
+}
+
